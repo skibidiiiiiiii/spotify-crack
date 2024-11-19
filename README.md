@@ -1,14 +1,14 @@
 # Spotify Crack Tool
 
 ## Description
-Cet outil Python est conçu pour détecter la présence de Spotify sur votre système et agir comme un vérificateur avant l'exécution de modifications avancées. Si Spotify est installé et en cours d'exécution, le script force sa fermeture pour préparer les étapes suivantes.
+Cet outil est conçu pour installer un crack sur le spotify pour usurper le premium
 
 **Attention** : Cet outil est destiné uniquement à des fins éducatives et expérimentales. Toute utilisation abusive est sous votre responsabilité.
 
 ## Fonctionnalités
 - **Détection automatique** : Vérifie si Spotify est installé en recherchant son répertoire par défaut.
 - **Préparation au patching** : Ferme Spotify s'il est actif afin d'éviter des conflits avec les étapes ultérieures.
-- **Boîtes de dialogue interactives** : Affiche des messages visuels clairs pour informer de l'état de l'outil (succès ou échec).
+- **crack** : installer le crack 
 
 ## Prérequis
 - **Système d'exploitation** : Windows
