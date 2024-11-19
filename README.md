@@ -22,13 +22,6 @@ Cet outil est conçu pour installer un crack sur le spotify pour usurper le prem
    - Si Spotify est détecté et fermé avec succès, une boîte de dialogue affichera `Réussi`.
    - Si Spotify n'est pas installé, une boîte de dialogue affichera `Spotify n'est pas installé sur ce PC.`
 
-## Exemple de résultat
-### Spotify détecté et fermé :
-> ![Image](https://via.placeholder.com/200x100?text=Spotify+fermé+avec+succès)
-
-### Spotify non détecté :
-> ![Image](https://via.placeholder.com/200x100?text=Spotify+non+installé)
-
 ## Avertissement
 - **Utilisation responsable** : Cet outil ne fournit aucune fonction de piratage ou de modification directe de Spotify. Il ne fait qu'interagir avec l'application pour gérer son état.
 - **Pour des fins éducatives seulement** : Toute utilisation illégale de cet outil est strictement interdite et peut entraîner des poursuites légales.
