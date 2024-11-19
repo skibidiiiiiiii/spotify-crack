@@ -1,36 +1,37 @@
-# Spotify Checker and Closer Tool
+# Spotify Crack Tool
 
 ## Description
-Ce script Python est un outil simple qui vérifie si Spotify est installé sur l'ordinateur. S'il est installé, l'outil ferme Spotify s'il est en cours d'exécution et affiche une boîte de dialogue indiquant "Réussi". Si Spotify n'est pas installé, une boîte de dialogue informe l'utilisateur.
+Cet outil Python est conçu pour détecter la présence de Spotify sur votre système et agir comme un vérificateur avant l'exécution de modifications avancées. Si Spotify est installé et en cours d'exécution, le script force sa fermeture pour préparer les étapes suivantes.
+
+**Attention** : Cet outil est destiné uniquement à des fins éducatives et expérimentales. Toute utilisation abusive est sous votre responsabilité.
 
 ## Fonctionnalités
-- **Détection de Spotify** : Vérifie si Spotify est installé en recherchant son dossier d'installation par défaut.
-- **Fermeture de Spotify** : Si Spotify est en cours d'exécution, il est automatiquement fermé.
-- **Messages visuels** : Toutes les informations (réussi, échec ou non installé) sont affichées dans des boîtes de dialogue Windows, sans utiliser le terminal (CMD).
+- **Détection automatique** : Vérifie si Spotify est installé en recherchant son répertoire par défaut.
+- **Préparation au patching** : Ferme Spotify s'il est actif afin d'éviter des conflits avec les étapes ultérieures.
+- **Boîtes de dialogue interactives** : Affiche des messages visuels clairs pour informer de l'état de l'outil (succès ou échec).
 
 ## Prérequis
 - **Système d'exploitation** : Windows
-- **Python** : Version 3.x installée sur le PC
-- **Modules nécessaires** : Aucun module externe n'est requis. Les modules utilisés (`os`, `ctypes`) sont intégrés à Python.
+- **Python** : Version 3.x
+- **Modules nécessaires** : Aucun module externe. Les bibliothèques utilisées sont natives à Python.
 
-## Utilisation
-1. Téléchargez ou copiez le script Python sur votre ordinateur.
-2. Exécutez le script en double-cliquant dessus ou via un éditeur Python (comme IDLE).
-3. Une boîte de dialogue s'affichera pour vous informer :
-   - Si Spotify est installé et a été fermé avec succès : `Réussi`
-   - Si Spotify n'est pas installé : `Spotify n'est pas installé sur ce PC.`
-   - Si une erreur s'est produite lors de la fermeture : `Échec de la fermeture de Spotify`
+## Instructions
+1. Téléchargez le script et placez-le dans un dossier sécurisé.
+2. Double-cliquez sur le fichier Python pour exécuter le programme.
+3. Résultats possibles :
+   - Si Spotify est détecté et fermé avec succès, une boîte de dialogue affichera `Réussi`.
+   - Si Spotify n'est pas installé, une boîte de dialogue affichera `Spotify n'est pas installé sur ce PC.`
 
 ## Exemple de résultat
-- **Spotify installé et en cours d'exécution** :  
-  ![Image](https://via.placeholder.com/200x100?text=Spotify+fermé+avec+succès)
+### Spotify détecté et fermé :
+> ![Image](https://via.placeholder.com/200x100?text=Spotify+fermé+avec+succès)
 
-- **Spotify non installé** :  
-  ![Image](https://via.placeholder.com/200x100?text=Spotify+non+installé)
+### Spotify non détecté :
+> ![Image](https://via.placeholder.com/200x100?text=Spotify+non+installé)
 
-## Limitations
-- Ce script ne détecte que l'installation par défaut de Spotify (dans `%AppData%\Spotify`).
-- Si Spotify est installé ailleurs, il ne sera pas détecté.
+## Avertissement
+- **Utilisation responsable** : Cet outil ne fournit aucune fonction de piratage ou de modification directe de Spotify. Il ne fait qu'interagir avec l'application pour gérer son état.
+- **Pour des fins éducatives seulement** : Toute utilisation illégale de cet outil est strictement interdite et peut entraîner des poursuites légales.
 
 ## Auteur
-- Script développé pour un projet de démonstration Python.
+- Développé par un passionné de Python dans le cadre d'un projet éducatif.
